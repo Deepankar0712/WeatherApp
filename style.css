@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(26, 38, 59);
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#city-input{
+    margin: 8px 0px;
+    padding: 3px 0;
+    border-bottom: 4px solid rgb(92, 198, 240);
+    font-size: 20px;
+    width: 300px;
+    font-family: "Comic Sans MS", "Gill Sans", "Calbiri";
+    font-style: italic;
+    background: none;
+    color: white;
+}
+input{
+    border: none;
+}
+button{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 20px 10px;
+    background-color: rgb(231, 243, 245);
+    border: 2px solid rgb(200, 214, 205);
+    border-radius: 4px;
+    box-shadow: 3px 3px rgb(117, 116, 116);
+    padding: 8px;
+}
+button:hover{
+    border: 2px solid rgb(92, 198, 240);
+    background-color: rgb(92, 198, 240);
+    cursor: pointer;
+    color: white;
+}
+button:active{
+    box-shadow: none;
+    transform: translateY(4px) translateX(3px);
+}
+#info{
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS", "Gill Sans", "Calbiri";
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(65, 46, 46);
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#temp{
+    font-size: 2rem;
+}
+#climate, #location{
+    font-size: 2.5rem;
+}
+#img_icon{
+    margin: 1px;
+    width: 40%;
+    height: auto;
+}
+
+
